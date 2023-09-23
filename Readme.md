@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алёна Олейник](https://up.htmlacademy.ru/htmlcss/38/user/2438209).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya)
 
 ---
 
