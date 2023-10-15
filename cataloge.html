@@ -3,30 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header>
       <header class="main-header">
-        <img class="logo sedona" alt="Логотип"
-    <nav class ="navigation-user">
-      <a class="navigation-logo" href="index.html">
-        <img class="page-header-logo" alt="Логотип Седона" src="#">
-      </a>
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">Главная</a>
-
-            </li>
-        <li class="navigation-item"
-        <a class="navigation-link" href="#" alt= "О нас">О нас</a>
+        <img class="logo sedona" src="images/logo.svg" alt="Логотип"
+        <nav class="navigation-site">
+        <ul class="navigation-list">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#" alt="Главная">Главная</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#" alt= "О нас"> О нас </a>
 
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#" alt="Гостиницы">Гостиницы</a>
       </li>
     </ul>
-    </nav class="navigation-user">
-
+        </nav>
     <main class="main-inner">
       <header class="inner-header">
         <h1 class="inner-header-title">Каталог</h1>
@@ -35,7 +31,7 @@
             <a class="breadcrumbs-link" href="index.html">Главная</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
+            <a class="breadcrumbs-link" href="#">Гостиницы</a>
           </li>
         </ul>
       </header>
@@ -117,44 +113,49 @@
       </section>
       <ul class="hotel-list">
         <li class="hotel-card">
-          <a class="hotel-card-link" href="hotel.html">
-            <img class="hotel-card-image" src="#" alt="amara ">
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="images/hotel-1.jpg" alt="amara ">
             <h3 class="hotel-card-title">Amara Resort&Spa</h3>
           </a>
           <p>Гостиница</p>
           <span class="hotel-card-price">от 4000 рублей</span>
           <a class="hotel-card-button button" href="#">Подробнее</a>
           <a class="hotel-card-button" href="#">Избранное</a>
+          <img class="icon" src="images/4stars.svg"
+        </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-card-image" src="#" alt="Poco Diablo ">
+              <img class="hotel-card-image" src="images/hotel-2.jpg" alt="Poco Diablo ">
               <h3 class="hotel-card-title"> Villas at Poco Diablo</h3>
             </a>
             <span class="hotel-card-price">от 5000 рублей</span>
             <a class="hotel-card-button button" href="#">Подробнее</a>
             <a class="hotel-card-button" clicked href="#"> В избранном</a>
+            <img class="icon" src="images/4stars.svg"
+          </li>
             <li class="hotel-card">
               <a class="hotel-card-link" href="hotel.html">
-                <img class="hotel-card-image" src="#" alt="Dessert Quail Inn ">
+                <img class="hotel-card-image" src="images/hotel-3.jpg" alt="Dessert Quail Inn ">
                 <h3 class="hotel-card-title"> Dessert Quail Inn</h3>
               </a>
               <span class="hotel-card-price">от 2500 рублей</span>
               <a class="hotel-card-button button" href="#">Подробнее</a>
               <a class="hotel-card-button" href="#">Избранное</a>
-        </li>
+              <img class="icon" src="images/3stars.svg"
+            </li>
         <div></div>
         <li class="hotel-card">
            <a class="hotel-card-link" href="hotel.html">
-          <img class="hotel-card-image" src="#" alt="GreenTree ">
+          <img class="hotel-card-image" src="images/hotel-4.jpg" alt="GreenTree ">
           <h3 class="hotel-card-title">GreenTree Inn</h3>
         </a>
         <p>Гостиница</p>
         <span class="hotel-card-price">от 1500 рублей</span>
         <a class="hotel-card-button button" href="#">Подробнее</a>
         <a class="hotel-card-button" href="#">Избранное</a>
-        <li class="hotel-card">
-
-        </li>
+        <img class="icon" src="images/2stars.svg"
+      </li>
+      </ul>
         <section class="form">
           <img class="background" src="#">
           <h3> Подпишитесь на рассылку!</h3>
@@ -167,17 +168,19 @@
             </form>
           </section>
 </main>
-
-
-</main>
     <footer>
       <footer class="page-footer">
         <section class="links">
           <h3 class="visually-hidden">ссылки</h3>
-          <a class="telegram" href="#">ТГ</a>
-          <a class="YT" href="#">Ютуб</a>
-          <a class="VK" href="#">ВК</a>
-          <a class="phone-number" href="+781281212">+781281212</a>
+          <a class="telegram" href="https://web.telegram.org">
+            <img class="social-media" src="images/social-telegram.svg">
+          </a>
+          <a class="yt" href="https://www.youtube.com">
+            <img class="social-media" src="images/social-youtube.svg">
+          </a>
+          <a class="vk" href="https://vk.com/">
+            <img class="social-media" src="images/social-vk.svg">
+          </a>
         </section>
     </footer>
 

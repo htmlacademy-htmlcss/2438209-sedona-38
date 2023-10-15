@@ -1,7 +1,49 @@
-body {
-  background-color: white
+@font-face{
+font-family:"PT Sans" ;
+font-style: normal;
+font-weight: 700px; ;
+src:url("C:/Users/User/Documents/GitHub/2438209-sedona-38/fonts/ptsans-700.woff2") format(".woff2");
+font-display:swap ;
 }
-nav {
-display: inline
-padding; 30px
+@font-face {
+ font-family:"PT Sans" ;
+font-style:normal ;
+font-weight: 400px;
+src: url("C:/Users/User/Documents/GitHub/2438209-sedona-38/fonts/ptsans-400.woff2") format(".woff2");
+ font-display:swap ;
 }
+body{
+ background-color:#ffff;
+ color: black;
+ font-family: "PT Sans";
+ font-size: 16px;
+ line-height: 24px;
+ font-display: swap;
+}
+.navigation-item{
+font-size: 20px;
+display: inline;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 16px;
+gap: 8px;
+
+}
+.introduction {;
+font-family: PT Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+}
+.advantages{
+  background-color: aqua;
+}
+.advantages-title
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #ffffff
