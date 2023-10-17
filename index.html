@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+    <div class="container">
       <header class="main-header">
       <img class="logo sedona" src="images/logo.svg" width="140" height="70" alt="Логотип">
 <nav class="navigation-site"></nav>
@@ -91,10 +92,10 @@
 <section class="form">
   <h3> Подпишитесь на рассылку!</h3>
   <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-  <form action="subscribe" method="send">
-    <p>Ваш E-mail: <input type="text" /></p>
+  <form action="subscribe" method="get">
+    <label>Ваш E-mail: <input type="text" /></label>
     <button class="subscribe">
-      <p>Подписаться </p>
+      Подписаться
     </button>
     </form>
   </section>
@@ -102,19 +103,23 @@
 <footer class="page-footer">
   <section class="links">
     <h3 class="visually-hidden">ссылки</h3>
-    <a class="telegram" href="https://web.telegram.org">
-      <img class="social-media" src="images/social-telegram.svg">
+    <ul><li class="social-media-links">
+    </li>
+    <a class="social-item-telegram" href="https://web.telegram.org">
+      <img src="images/social-telegram.svg">
+    </a></li>
+    <li><a class="youtube" href="https://www.youtube.com">
+      <img src="images/social-youtube.svg">
+    </a></li>
+   <li> <a class="vk" href="https://vk.com/">
+      <img src="images/social-vk.svg">
     </a>
-    <a class="yt" href="https://www.youtube.com">
-      <img class="social-media" src="images/social-youtube.svg">
-    </a>
-    <a class="vk" href="https://vk.com/">
-      <img class="social-media" src="images/social-vk.svg">
-    </a>
+   </li> </ul>
   </section>
 <section class="phone-number">
   <a class="phone-number" href="+781281212">+781281212</a>
 </section>
 </footer>
+    </div>>
   </body>
 </html>
