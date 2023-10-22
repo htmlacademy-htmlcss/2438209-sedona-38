@@ -20,13 +20,23 @@ html {
 
 body {
   margin: 0;
-  font-family: "PT Sans";
   font-size: 22px;
   line-height: 26px;
   color:#000000;
   background-color: #FFFF ;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 1200;
 }
+
+.main-container
+{
+  width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
 .navigation-list{
   background: #ffffff;
   color: #000000;
@@ -35,7 +45,26 @@ body {
   line-height: 24px;
   text-decoration: none;
   display: inline;
+  margin: 0;
+  padding: 0;
+  width:339px;
+height: 64px;
+
 }
+.navigation-user{
+  max-width: 250px;
+  margin-left: auto;
+
+}
+.introduction{
+  width: 1,200px;
+height: 261px;
+top: 485px;
+padding:0;
+margin:0 ;
+
+}
+
 .advantages{
   font-weight: 400;
   font-size: 20px;
@@ -43,29 +72,143 @@ body {
   color: #000000;
   line-height: 24px;
   text-decoration: none;
-
+  width:1,200px;
+  height: 1,155px;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
 }
+
 .advantages-title {
+
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
 }
+
 .advantages-item{
+
+font-family: "PT Sans";
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #ffffff;
+color: #000000;
+text-decoration: none;
+width: 277px;
+}
+.advantages-description{
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
 
 }
 .services{
-
+  display: flex;
+margin: 0;
+padding: 0;
+justify-content: space-between;
+text-align: center;
+}
+.service-name{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.service-description{
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.button-place{
+font-family: PT Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #000;
+background-color: #ffffff;
+text-decoration: none;
+}
+.phone-number{
+  font-size: 28px;
+  font-weight: 400;
+  color: #000;
+background-color: #ffffff;
 }
 
-
-/.. catalog .. /
-
-.hotel-card{
-
-
+.hotel-card-title{
+font-size:28 px;
+font-weight: 700;
+color: #000;
+background-color: #ffffff;
+line-height: ;
+text-decoration: none;
 }
+.hotel-card-button{
+font-size: 22px;
+font-weight: 400;
+color: #000;
+background-color: #ffffff;
+line-height: ;
+text-decoration: none;
+}
+.hotel-card-price{
+font-size: 22px;
+color: #000;
+background-color: #ffffff;
+text-decoration: none;
+line-height: ;
+}
+.pagination{
+  color: black;
+   padding: 8px 16px;
+   text-decoration: none;
+   transition: background-color .3s;
+ }
+ .pagination a.active {
+   background-color: dodgerblue;
+   color: white;
+ }
+ .pagination a:hover:not(.active) {
+   background-color: #ddd;
+ }
+
+
 .form{
 
+
+}
+.h3{
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+color: #000;
+background-color: #ffffff;
 }
