@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+html {
+  height: 100%;
+
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "PT Sans";
+  background-color:white;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: black;
+
+  }
+  .main-index{
+
+  }
+
+
+.container
+{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    background-clip: content-box;
+  flex-grow: 1;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  align-content: center;
+}
+.logo-sedona{
+  width: 138px;
+  height: 70px;
+  position: relative;
+  margin-bottom: -6px;
+  margin-right: 30px;
+
+}
+
+.navigation-site{
+  display: flex;
+  flex-direction: row;
+}
+.navigation-list{
+  background: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  justify-content: space-between;
+width: 430px;
+width: Fixed 1,200px
+height:64px
+padding: 0px, 70px, 0px, 70px
+
+}
+.navigation-user{
+  max-width: 310px;
+  margin-left: auto;
+
+
+}
+.introduction{
+  width: 100%;
+height: 485px;
+padding:0;
+margin:0 ;
+background-image: url(/images/index-background.jpg)  ;
+display: flex;
+background-repeat:no-repeat ;
+
+}
+
+.advantages-list{
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #83B3D31F;
+  color: #000000;
+  line-height: 24px;
+  text-decoration: none;
+  width:1,200px;
+  height: 1,155px;
+margin: 0;
+padding: 0;
+display:flex;
+flex-wrap: wrap;
+
+}
+
+.advantages-title {
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.advantages-item{
+
+font-family: "PT Sans";
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+background-color:  #83B3D31F;
+color: #000000;
+text-decoration: none;
+width: 400px;
+height: 385px;
+align-items: center;
+padding-top: 85px;
+padding-right: 103px;
+padding-bottom: 85px; ;
+padding-left: 85px;
+box-sizing: border-box;
+}
+.advantages-item-full{
+width: 100%;
+display: flex;
+text-align: center;
+
+}
+
+.advantages-description{
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #000000;
+  text-decoration: none;
+  width: 230px;
+height: 63px;
+text-align: center;
+
+
+}
+.services-list{
+display: flex;
+margin: 0;
+padding: 0;
+background: #ffffff;
+align-items: center;
+justify-content: space-around;
+padding-top: 85px;
+padding-right: 103px;
+padding-bottom: 85px; ;
+padding-left: 85px;
+box-sizing: border-box;
+
+}
+.service-name{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.service-description{
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #000;
+  background-color: #ffffff;
+  text-decoration: none;
+ text-align:center;
+}
+.button-place{
+font-family: PT Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+color: #000;
+background-color: #ffffff;
+text-decoration: none;
+}
+.phone-number{
+  font-size: 28px;
+  font-weight: 400;
+  color: #000;
+background-color: #ffffff;
+}
+
+.page-footer{
+display: flex;
+justify-content: space-between;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 0;
+
+}
+.hotel-list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.hotel-card-title{
+font-size:28 px;
+font-weight: 700;
+color: #000;
+background-color: #ffffff;
+line-height: ;
+text-decoration: none;
+}
+.hotel-card-button{
+font-size: 22px;
+font-weight: 400;
+color: #000;
+background-color: #ffffff;
+line-height: ;
+text-decoration: none;
+}
+.hotel-card-price{
+font-size: 22px;
+color: #000;
+background-color: #ffffff;
+text-decoration: none;
+line-height: ;
+}
+.pagination{
+  color: black;
+   padding: 8px 16px;
+   text-decoration: none;
+   transition: background-color .3s;
+ }
+ .pagination a.active {
+   background-color: dodgerblue;
+   color: white;
+ }
+ .pagination a:hover:not(.active) {
+   background-color: #ddd;
+ }
+
+
+.form{
+
+
+}
+.h3{
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+color: #000;
+background-color: #ffffff;
+}
